@@ -1,59 +1,59 @@
 @font-face {
 	font-family: 'Domine-Bold';
-	src: url('Domine-Bold.eot');
-	src: url('Domine-Bold.eot?#iefix') format('embedded-opentype'),
-		 url('Domine-Bold.svg#Domine-Bold') format('svg'),
-		 url('Domine-Bold.ttf') format('truetype'),
-		 url('Domine-Bold.woff') format('woff'),
-		 url('Domine-Bold.woff2') format('woff2');
+	src: url('../font/Domine-Bold.eot');
+	src: url('../font/Domine-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Domine-Bold.svg#Domine-Bold') format('svg'),
+		 url('../font/Domine-Bold.ttf') format('truetype'),
+		 url('../font/Domine-Bold.woff') format('woff'),
+		 url('../font/Domine-Bold.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
   }
 
   @font-face {
 	font-family: 'Montserrat-Bold';
-	src: url('Montserrat-Bold.eot');
-	src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-		 url('Montserrat-Bold.svg#Montserrat-Bold') format('svg'),
-		 url('Montserrat-Bold.ttf') format('truetype'),
-		 url('Montserrat-Bold.woff') format('woff'),
-		 url('Montserrat-Bold.woff2') format('woff2');
+	src: url('../font/Montserrat-Bold.eot');
+	src: url('../font/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Montserrat-Bold.svg#Montserrat-Bold') format('svg'),
+		 url('../font/Montserrat-Bold.ttf') format('truetype'),
+		 url('../font/Montserrat-Bold.woff') format('woff'),
+		 url('../font/Montserrat-Bold.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
   }
 
   @font-face {
 	font-family: 'Montserrat-Regular';
-	src: url('Montserrat-Regular.eot');
-	src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-		 url('Montserrat-Regular.svg#Montserrat-Regular') format('svg'),
-		 url('Montserrat-Regular.ttf') format('truetype'),
-		 url('Montserrat-Regular.woff') format('woff'),
-		 url('Montserrat-Regular.woff2') format('woff2');
+	src: url('../font/Montserrat-Regular.eot');
+	src: url('../font/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Montserrat-Regular.svg#Montserrat-Regular') format('svg'),
+		 url('../font/Montserrat-Regular.ttf') format('truetype'),
+		 url('../font/Montserrat-Regular.woff') format('woff'),
+		 url('../font/Montserrat-Regular.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
   }
 
   @font-face {
 	font-family: 'OpenSans-Bold';
-	src: url('OpenSans-Bold.eot');
-	src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
-		 url('OpenSans-Bold.svg#OpenSans-Bold') format('svg'),
-		 url('OpenSans-Bold.ttf') format('truetype'),
-		 url('OpenSans-Bold.woff') format('woff'),
-		 url('OpenSans-Bold.woff2') format('woff2');
+	src: url('../font/OpenSans-Bold.eot');
+	src: url('../font/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../font/OpenSans-Bold.svg#OpenSans-Bold') format('svg'),
+		 url('../font/OpenSans-Bold.ttf') format('truetype'),
+		 url('../font/OpenSans-Bold.woff') format('woff'),
+		 url('../font/OpenSans-Bold.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
   }
 
   @font-face {
 	font-family: 'OpenSans-Regular';
-	src: url('OpenSans-Regular.eot');
-	src: url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-		 url('OpenSans-Regular.svg#OpenSans-Regular') format('svg'),
-		 url('OpenSans-Regular.ttf') format('truetype'),
-		 url('OpenSans-Regular.woff') format('woff'),
-		 url('OpenSans-Regular.woff2') format('woff2');
+	src: url('../font/OpenSans-Regular.eot');
+	src: url('../font/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../font/OpenSans-Regular.svg#OpenSans-Regular') format('svg'),
+		 url('../font/OpenSans-Regular.ttf') format('truetype'),
+		 url('../font/OpenSans-Regular.woff') format('woff'),
+		 url('../font/OpenSans-Regular.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
   }
@@ -62,4 +62,106 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	font-family: "Domine-Bold", "Montserrat-Bold", "Montserrat-Regular", "OpenSans-Bold", "OpenSans-Regular", sans-serif;
+}
+
+li {
+	list-style-type: none;
+}
+
+li:hover {
+	cursor: pointer;
+	background: grey;
+}
+
+img {
+	display: block;
+}
+
+.container {
+	width: 1370px;
+	margin: 0 auto;
+}
+
+.img {
+	display: flex;
+}
+
+.relative {
+	position: relative;
+	justify-content: center;
+	display: flex;
+}
+
+.relative-content {
+	display: flex;
+}
+
+.title1 {
+	margin-left: 200px;
+	width: 140px;
+	height: 74px;
+	border-radius: 8px;
+	background-color: #fa5c65;
+}
+
+.title1 p {
+	font-size: 20px;
+	line-height: 85px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Domine";
+	display: flex;
+	justify-content: center;
+}
+
+.menu {
+	display: flex;
+	margin-left: 350px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "Montserrat", sans-serif;
+	padding: 10px 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu li {
+	margin-right: 6px;
+	border-radius: 20px;
+}
+
+.menu li:last-child {
+	margin-right: 0;
+}
+.menu li a {
+	display: block;
+	color: #263742;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu li:hover a {
+	cursor: pointer;
+	color: white;
+}
+
+.social {
+	display: flex;
+} 
+
+.social i {
+	padding: 0 10px;
+	font-size: 20px;
+	color: tomato;
+	transition: .2s;
+}
+
+.social i:hover {
+	cursor: pointer;
+	transform: scale(115%);
 }
