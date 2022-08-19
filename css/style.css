@@ -213,7 +213,7 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transition: .2s;
+	transition: .3s;
 }
 
 .button2:hover {
@@ -282,7 +282,7 @@ img {
 
 .text2 {
 	display: flex;
-	transition: .1s;
+	transition: .2s;
 }
 
 .text2:hover {
@@ -351,6 +351,7 @@ img {
 	display: flex;
 	transition: .1s;
 	margin-top: 10px;
+	transition: .2s;
 }
 
 .text3:hover {
@@ -441,3 +442,80 @@ img {
 	font-family: "Open Sans", Arial, sans-serif;
 	margin-top: 8px;
 }
+
+.team-content:last-child {
+	margin-left: 20px;
+}
+
+.team-content:nth-child(even) {
+	margin-left: 15px;
+}
+
+.text4 {
+	display: flex;
+	transition: .1s;
+	margin-top: 20px;
+	justify-content: flex-end;
+	margin-right: 100px;
+	width: 83%;
+	transition: .2s;
+}
+
+.text4:hover {
+	cursor: pointer;
+	transform: scale(101%);
+}
+
+.text4 p {
+	margin-top: 29px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fa5c65;
+	font-weight: 700;
+	font-family: "Montserrat", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.down-line {
+	border-bottom: 1px solid silver;
+	margin-left: 220px;
+	width: 70%;
+	margin-top: 58px;
+}
+
+.down {
+	display: flex;
+}
+
+.social-links {
+	display: flex;
+	margin-left: 220px;
+	padding: 42px 0;
+	font-size: 18px;
+	width: 10%;
+	height: 30px;
+	justify-content: space-between;
+	align-items: center;
+	color: silver;
+}
+
+.fa-brands {
+	transition: .2s;
+}
+
+.fa-brands:hover {
+	cursor: pointer;
+	transform: scale(110%);
+}
+
+.down p {
+	margin-left: 545px;
+	font-size: 13px;
+	line-height: 60px;
+	color: #b9c0c6;
+	font-weight: 400;
+	font-family: "Open Sans", Arial, sans-serif;
+	text-align: right;
+	margin-top: 10px;
+}
+
